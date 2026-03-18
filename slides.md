@@ -118,7 +118,6 @@ Rails のレール = 運用知見のプリセット
 - Hono には logging middleware の仕組みはある
 - でも、何をどう出すかは自分で決めて実装する必要がある
 - Rails は default でログが出る
-- log level の制御もしやすい
 - `config/initializers/filter_parameter_logging.rb` で `password`, `email`, `secret` などをマスクできる
 - Hono ではそこも自前実装になった
 
