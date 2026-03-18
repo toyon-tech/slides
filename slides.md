@@ -148,14 +148,28 @@ Rails の rollback は、開発速度にかなり効く
 
 ---
 
+---
+layout: two-cols
+layoutClass: gap-8
+---
+
 # 具体例③ ID 設計
 
 - Hono では特に縛りがなかった
 - なんとなく UUID を採用した
 - でも、関連データを目視で追いづらくて後悔した
 - 個人的には default が auto increment の方がありがたかった
-- 最終的に `id + uuid` へ寄せるにしても、最初の default は強い
 
+::right::
+
+<div class="pt-10">
+  <img src="/images/uuid-unixtime-example.png" class="rounded-xl shadow-lg border border-gray-200" />
+  <div class="text-sm opacity-70 mt-3">UUID は一意性には強いけど、目視追跡はかなりつらい</div>
+</div>
+
+---
+layout: two-cols
+layoutClass: gap-8
 ---
 
 # 具体例④ timestamp
@@ -164,6 +178,13 @@ Rails の rollback は、開発速度にかなり効く
 - でも、人間が読むにはかなりつらい
 - 調査・分析・運用で日時が直感的にわからない
 - integer にも利点はあるけど、個人的には datetime の default がありがたい
+
+::right::
+
+<div class="pt-10">
+  <img src="/images/uuid-unixtime-example.png" class="rounded-xl shadow-lg border border-gray-200" />
+  <div class="text-sm opacity-70 mt-3">数字としては扱いやすくても、人間には読みにくい</div>
+</div>
 
 ---
 layout: center
