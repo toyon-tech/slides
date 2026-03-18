@@ -98,6 +98,33 @@ layoutClass: gap-12
 <img src="/images/hono_logo.png" class="mt-6 rounded-xl shadow border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
 
 ---
+
+# kodatelog のサービス構成
+
+```mermaid {scale: 0.9}
+flowchart LR
+    U[User]
+    F[Frontend<br/>Nuxt on Cloudflare Pages]
+    B[Backend API<br/>Hono on Cloudflare Workers]
+    D[(Cloudflare D1)]
+    R[R2]
+    O[OpenAI API]
+    S[Sentry]
+
+    U --> F
+    F -->|API request| B
+    B --> D
+    B --> R
+    B -->|AI advice / document autofill| O
+    F -->|frontend errors| S
+    B -->|backend errors| S
+```
+
+<div class="mt-4 text-sm opacity-75">
+Pages + Workers + D1 + R2 を基本に、AI機能と監視を後ろに載せている
+</div>
+
+---
 layout: two-cols
 layoutClass: gap-12
 ---
