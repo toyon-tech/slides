@@ -156,19 +156,22 @@ layoutClass: gap-8
 - Hono では特に縛りがなかった
 - なんとなく UUID を採用した
 - でも、関連データを目視で追いづらくて後悔した
-- 個人的には default が auto increment の方がありがたかった
+
+<div class="mt-6 text-lg font-semibold text-orange-700">
+個人的には default が auto increment の方がありがたかった
+</div>
 
 ::right::
 
-<div class="pt-0 space-y-3">
-  <img src="/images/uuid-example.png" class="rounded-xl shadow-lg border border-gray-200 max-h-64 w-full object-contain mx-auto" />
-  <img src="/images/uuid-unixtime-example.png" class="rounded-xl shadow-lg border border-gray-200 max-h-64 w-full object-contain mx-auto" />
+<div class="pt-0 space-y-2">
+  <img src="/images/uuid-example.png" class="rounded-xl shadow-lg border border-gray-200 max-h-72 w-full object-contain mx-auto" />
+  <img src="/images/uuid-unixtime-example.png" class="rounded-xl shadow-lg border border-gray-200 max-h-72 w-full object-contain mx-auto" />
   <div class="text-sm opacity-70">UUID は一意性には強いけど、目視追跡はかなりつらい</div>
 </div>
 
 ---
 layout: two-cols
-layoutClass: gap-8
+layoutClass: gap-6
 ---
 
 # 具体例④ timestamp
@@ -180,9 +183,9 @@ layoutClass: gap-8
 
 ::right::
 
-<div class="pt-2">
-  <img src="/images/uuid-unixtime-example.png" class="rounded-xl shadow-lg border border-gray-200 max-h-96 w-full object-contain" />
-  <div class="text-sm opacity-70 mt-3">数字としては扱いやすくても、人間には読みにくい</div>
+<div class="pt-0">
+  <img src="/images/uuid-unixtime-example.png" class="rounded-xl shadow-lg border border-gray-200 max-h-[30rem] w-full object-contain" />
+  <div class="text-sm opacity-70 mt-2">数字としては扱いやすくても、人間には読みにくい</div>
 </div>
 
 ---
