@@ -11,6 +11,30 @@ duration: 10min
 mdc: true
 ---
 
+<style>
+.slidev-layout,
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4,
+.slidev-layout h5,
+.slidev-layout h6,
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout div,
+.slidev-layout span {
+  color: #111827;
+}
+
+.slidev-layout strong {
+  color: #0f172a;
+}
+
+.slidev-layout code {
+  color: #b45309;
+}
+</style>
+
 # Rails、お前だったのか。
 
 いつもレールの上を走らせてくれてたのは。
