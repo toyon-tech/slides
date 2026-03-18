@@ -133,9 +133,11 @@ Rails のレール = 運用知見のプリセット
 - Hono + Drizzle ORM では rollback を運用で補う必要があった
 - 例: migration と一緒に rollback 用 migration も作る仕組みを用意した
 
-<div class="mt-8 text-xl font-semibold text-orange-700">
+<div class="mt-4 text-xl font-semibold text-orange-700">
 Rails の rollback は、開発速度にかなり効く
 </div>
+
+<img src="/images/rollback-example.png" class="mt-6 rounded-xl shadow border border-gray-200 max-h-[16rem] w-full object-contain mx-auto" />
 
 ---
 layout: two-cols
