@@ -101,24 +101,7 @@ layoutClass: gap-12
 
 # kodatelog のサービス構成
 
-```mermaid {scale: 0.9}
-flowchart LR
-    U[User]
-    F[Frontend<br/>Nuxt on Cloudflare Pages]
-    B[Backend API<br/>Hono on Cloudflare Workers]
-    D[(Cloudflare D1)]
-    R[R2]
-    O[OpenAI API]
-    S[Sentry]
-
-    U --> F
-    F -->|API request| B
-    B --> D
-    B --> R
-    B -->|AI advice / document autofill| O
-    F -->|frontend errors| S
-    B -->|backend errors| S
-```
+<img src="/images/kodatelog-architecture.svg" class="mt-6 rounded-2xl shadow-lg border border-gray-200 max-h-[32rem] w-full object-contain mx-auto" />
 
 <div class="mt-4 text-sm opacity-75">
 Pages + Workers + D1 + R2 を基本に、AI機能と監視を後ろに載せている
