@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F2"/>
+      <stop offset="1" stop-color="#F8E7D8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="630" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#7C2D12" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <path d="M70 508C190 468 266 470 390 514C511 557 596 557 724 505C865 447 968 446 1132 512" stroke="#D97757" stroke-width="8" stroke-linecap="round" opacity="0.32"/>
+  <path d="M70 544C191 504 267 506 392 549C513 591 598 592 725 540C867 482 970 482 1132 548" stroke="#9A3412" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
+
+  <g opacity="0.18">
+    <circle cx="1038" cy="128" r="84" fill="#C2410C"/>
+    <circle cx="1108" cy="84" r="26" fill="#EA580C"/>
+  </g>
+
+  <text x="86" y="96" fill="#9A3412" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700" letter-spacing="0.08em">SLIDE DECK</text>
+
+  <g filter="url(#shadow)">
+    <text x="84" y="228" fill="#111827" font-size="78" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="800">Rails、お前だったのか。</text>
+  </g>
+
+  <text x="88" y="306" fill="#374151" font-size="36" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="500">Cloudflare + Hono で新規開発して、</text>
+  <text x="88" y="356" fill="#374151" font-size="36" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="500">Rails のレールの価値を痛感した話</text>
+
+  <rect x="84" y="428" width="476" height="2" fill="#C2410C" opacity="0.38"/>
+
+  <text x="88" y="520" fill="#7C2D12" font-size="28" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="700">t0yohei / Gotanda.rb #66</text>
+  <text x="88" y="566" fill="#6B7280" font-size="22" font-family="Inter, Arial, sans-serif" font-weight="500">Cloudflare + Hono / Rails / DX / newly learned rails</text>
+</svg>
