@@ -1,11 +1,13 @@
 {
-  "name": "rails-rail-talk",
+  "name": "slides",
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "dev": "slidev slides/rails-talk.md --open",
+    "dev:rails-talk": "slidev slides/rails-talk.md --open",
+    "build": "node scripts/build-slides.mjs",
+    "build:rails-talk": "slidev build slides/rails-talk.md --out dist/rails-talk",
+    "export": "slidev export slides/rails-talk.md"
   },
   "dependencies": {
     "@slidev/cli": "^52.14.1",
