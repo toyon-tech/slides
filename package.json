@@ -9,6 +9,7 @@
     "dev": "node scripts/slides.mjs dev",
     "build": "node scripts/slides.mjs build",
     "build:all": "node scripts/slides.mjs build-all",
+    "build:pages": "SLIDEV_BASE_PREFIX=${SLIDEV_BASE_PREFIX:-slides} node scripts/slides.mjs build-all",
     "export": "node scripts/slides.mjs export"
   },
   "dependencies": {
