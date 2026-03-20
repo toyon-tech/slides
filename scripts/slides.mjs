@@ -1,4 +1,4 @@
-import { mkdirSync, readdirSync, existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readdirSync, existsSync, readFileSync, writeFileSync, rmSync } from 'node:fs'
 import { spawnSync } from 'node:child_process'
 import path from 'node:path'
 
@@ -64,6 +64,10 @@ function resolveDeck(inputDeck) {
     process.exit(1)
   }
   return deck
+}
+
+function cleanDist() {
+  rmSync(distDir, { recursive: true, force: true })
 }
 
 function run(command, args) {
@@ -192,6 +196,7 @@ if (command === 'new') {
 }
 
 if (command === 'build-all') {
+  cleanDist()
   generateIndexDeck()
   generateCloudflareRedirects()
   const allDecks = getDecks()
@@ -217,6 +222,7 @@ switch (command) {
     run('npx', ['slidev', entry, '--open', ...rest])
     break
   case 'build': {
+    cleanDist()
     if (deck === defaultDeck) generateIndexDeck()
     const outDir = deck === defaultDeck ? distDir : path.join(distDir, deck)
     const base = deck === defaultDeck ? withBasePrefix('/') : withBasePrefix(`/${deck}/`)
