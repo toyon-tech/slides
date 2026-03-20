@@ -4,6 +4,19 @@ import path from 'node:path'
 
 const decksDir = path.resolve('decks')
 const defaultDeck = 'index'
+const distDir = path.resolve('dist')
+const basePrefix = normalizeBasePrefix(process.env.SLIDEV_BASE_PREFIX || '')
+
+function normalizeBasePrefix(value) {
+  const trimmed = String(value || '').trim().replace(/^\/+|\/+$/g, '')
+  return trimmed ? `/${trimmed}` : ''
+}
+
+function withBasePrefix(route = '/') {
+  const normalizedRoute = route.startsWith('/') ? route : `/${route}`
+  if (normalizedRoute === '/') return `${basePrefix}/` || '/'
+  return `${basePrefix}${normalizedRoute}`
+}
 
 function toTitleCaseFromSlug(slug) {
   return slug
@@ -96,7 +109,7 @@ function generateIndexDeck() {
   const decks = getDecks({ includeIndex: false }).map(getDeckMeta)
   const cards = decks.length
     ? decks
-        .map(({ slug, title }) => `- [${title}](/${slug}/)\n  - decks/${slug}/slides.md`)
+        .map(({ slug, title }) => `- [${title}](${withBasePrefix(`/${slug}/`)})\n  - decks/${slug}/slides.md`)
         .join('\n')
     : '- まだ deck はない'
 
@@ -186,8 +199,8 @@ if (command === 'build-all') {
     process.exit(1)
   }
   for (const deck of allDecks) {
-    const outDir = deck === defaultDeck ? 'dist' : path.join('dist', deck)
-    const base = deck === defaultDeck ? '/' : `/${deck}/`
+    const outDir = deck === defaultDeck ? distDir : path.join(distDir, deck)
+    const base = deck === defaultDeck ? withBasePrefix('/') : withBasePrefix(`/${deck}/`)
     console.log(`\n=== Building ${deck} -> ${outDir} (base: ${base}) ===`)
     run('npx', ['slidev', 'build', path.join('decks', deck, 'slides.md'), '--out', outDir, '--base', base, ...rest])
   }
@@ -202,10 +215,13 @@ switch (command) {
     if (deck === defaultDeck) generateIndexDeck()
     run('npx', ['slidev', entry, '--open', ...rest])
     break
-  case 'build':
+  case 'build': {
     if (deck === defaultDeck) generateIndexDeck()
-    run('npx', ['slidev', 'build', entry, '--out', 'dist', ...rest])
+    const outDir = deck === defaultDeck ? distDir : path.join(distDir, deck)
+    const base = deck === defaultDeck ? withBasePrefix('/') : withBasePrefix(`/${deck}/`)
+    run('npx', ['slidev', 'build', entry, '--out', outDir, '--base', base, ...rest])
     break
+  }
   case 'export':
     run('npx', ['slidev', 'export', entry, ...rest])
     break
