@@ -1,0 +1,138 @@
+---
+theme: seriph
+title: 「おはよう」から「おやすみ」まで
+info: |
+  OpenClaw の家電操作で始める AI 生活
+class: text-center
+drawings:
+  persist: false
+transition: slide-left
+duration: 7min
+mdc: true
+routerMode: hash
+---
+
+# 「おはよう」から「おやすみ」まで
+
+<div class="mt-8 text-xl opacity-80">OpenClaw の家電操作で始める AI 生活</div>
+
+<div class="mt-14 text-lg opacity-60">t0yohei</div>
+
+---
+layout: center
+class: text-center
+---
+
+# 自己紹介
+
+<div class="mt-8 text-left inline-block text-xl leading-10">
+- とよへい
+- OpenClaw を日常で使える相棒として育てている
+- 音声 UI と家電操作に興味がある
+- 今回は Discord 音声から部屋を動かす取り組みを紹介
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# やろうとしてること
+
+<div class="mt-8 text-left inline-block text-xl leading-10">
+- Discord で OpenClaw に話しかける
+- 音声から意図を判定する
+- 家電を fastpath で操作する
+</div>
+
+<div class="mt-12 text-2xl leading-12 font-mono opacity-80">
+Discord音声<br>
+→ STT<br>
+→ audio-router<br>
+→ intent 判定<br>
+→ 家電操作
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Demo
+
+<div class="mt-10 text-3xl leading-14 font-semibold">
+おはよう<br>
+暖房つけて<br>
+おやすみ
+</div>
+
+<div class="mt-12 text-lg opacity-70">
+Google Meet で部屋を映しながら、Discord から実際に送る
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# How it works
+
+<div class="mt-8 text-left inline-block text-xl leading-10 font-mono">
+Discord音声<br>
+↓<br>
+高速STT (local fstt)<br>
+↓<br>
+message:transcribed<br>
+↓<br>
+audio-router<br>
+├─ local Ollama で intent 判定<br>
+├─ transcript の揺らぎ補正<br>
+└─ fastpath なら即 API 実行<br>
+↓<br>
+SwitchBot API<br>
+↓<br>
+照明 / エアコン
+</div>
+
+<div class="mt-8 text-base opacity-70">
+家電操作は main agent の返答を待たずに先に処理<br>
+雑談や複雑な依頼は main 側に渡す
+</div>
+
+---
+layout: default
+---
+
+# 3秒以内に操作を終わらせたかった
+
+<div class="mt-6 text-xl leading-9">
+<div class="font-bold">やったこと 1: STT を local / 高速化</div>
+<div class="opacity-80">標準の重い経路ではなく、高速な STT を local で利用</div>
+
+<div class="mt-6 font-bold">やったこと 2: local LLM (Ollama) で意図判定</div>
+<div class="opacity-80">通信 overhead を減らし、STT の揺らぎ補正と intent 判定をまとめて処理</div>
+
+<div class="mt-6 font-bold">やったこと 3: hook で fastpath 実行</div>
+<div class="opacity-80">main agent の返答を待たずに家電操作だけ先に処理</div>
+</div>
+
+<div class="mt-10 text-2xl font-bold text-orange-600">
+遅い部分をできるだけ main agent の外に逃がした
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Next
+
+<div class="mt-8 text-left inline-block text-xl leading-10">
+- Discord を使わずに、OpenClaw に話しかけるだけで操作できるようにしたい
+- 家電以外のことも、会話で OpenClaw に頼めるようにしたい
+</div>
+
+<div class="mt-12 text-lg opacity-75">
+Google Home のように自然に呼び出せるようにして、<br>
+家電操作だけでなく、日常の頼み事にも広げたい
+</div>

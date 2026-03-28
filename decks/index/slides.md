@@ -23,6 +23,9 @@ layout: default
 
 # Decks
 
+<a href="/ohayou-kara-oyasumi-made/" target="_self">「おはよう」から「おやすみ」まで</a>
+<div class="text-sm opacity-60 mt-1">decks/ohayou-kara-oyasumi-made/slides.md</div>
+
 <a href="/rails-omae-datta-no-ka/" target="_self">Rails、お前だったのか。</a>
 <div class="text-sm opacity-60 mt-1">decks/rails-omae-datta-no-ka/slides.md</div>
 
