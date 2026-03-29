@@ -60,13 +60,8 @@ body,
 <div class="mt-14 text-lg opacity-60">t0yohei @ 🦞ClawCon Tokyo</div>
 
 ---
-layout: center
-class: text-center
+src: ./slides/profile-slide.vue
 ---
-
-# t0yohei について
-
-<OhayouProfileCard />
 
 ---
 layout: center
@@ -98,13 +93,8 @@ Google Meet で部屋を映しながら、Discord から実際に送る
 </div>
 
 ---
-layout: center
-class: text-center
+src: ./slides/how-it-works-slide.vue
 ---
-
-# How it works
-
-<OhayouHowItWorksDiagram />
 
 ---
 layout: default
