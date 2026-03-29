@@ -97,14 +97,17 @@ class: text-center
 
 # Demo
 
-<div class="mt-10 text-3xl leading-14 font-semibold">
-おはよう<br>
-冷房つけて<br>
-おやすみ
-</div>
-
-<div class="mt-12 text-lg opacity-70">
-Google Meet で部屋を映しながら、Discord から実際に送る
+<div class="mt-8 flex justify-center">
+  <iframe
+    width="960"
+    height="540"
+    src="https://www.youtube.com/embed/fnO_I4Hi8lk"
+    title="Demo video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    class="rounded-2xl shadow-lg border border-gray-200 max-w-full"
+  ></iframe>
 </div>
 
 ---
