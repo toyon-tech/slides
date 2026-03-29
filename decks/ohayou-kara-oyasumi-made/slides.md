@@ -112,26 +112,41 @@ class: text-center
 
 # How it works
 
-<div class="mt-8 text-left inline-block text-xl leading-10 font-mono">
-Discord音声<br>
-↓<br>
-高速STT (local fstt)<br>
-↓<br>
-message:transcribed<br>
-↓<br>
-audio-router<br>
-├─ local Ollama で intent 判定<br>
-├─ transcript の揺らぎ補正<br>
-└─ fastpath なら即 API 実行<br>
-↓<br>
-SwitchBot API<br>
-↓<br>
-照明 / エアコン
+<div class="mt-8 grid grid-cols-[1fr_auto_1fr_auto_1fr] gap-x-4 gap-y-6 items-center text-center text-lg">
+  <div class="rounded-2xl border border-gray-200 bg-white px-4 py-5 shadow-sm">
+    <div class="text-sm opacity-60">input</div>
+    <div class="mt-2 font-semibold">Discord 音声</div>
+  </div>
+  <div class="text-3xl text-orange-500">→</div>
+  <div class="rounded-2xl border border-gray-200 bg-white px-4 py-5 shadow-sm">
+    <div class="text-sm opacity-60">speech to text</div>
+    <div class="mt-2 font-semibold">高速 STT</div>
+    <div class="text-sm opacity-70">local fstt</div>
+  </div>
+  <div class="text-3xl text-orange-500">→</div>
+  <div class="rounded-2xl border border-orange-200 bg-orange-50 px-4 py-5 shadow-sm">
+    <div class="text-sm opacity-60">routing</div>
+    <div class="mt-2 font-semibold">audio-router</div>
+    <div class="text-sm opacity-70">意図判定 / 揺らぎ補正</div>
+  </div>
+
+  <div class="col-span-5 flex items-center justify-center text-3xl text-orange-500">↓</div>
+
+  <div class="col-span-2 rounded-2xl border border-orange-300 bg-orange-100 px-4 py-5 shadow-sm text-left">
+    <div class="text-sm opacity-60">fast path</div>
+    <div class="mt-2 text-xl font-semibold">家電操作は先に実行</div>
+    <div class="mt-2 text-sm opacity-75">main agent の返答を待たない</div>
+  </div>
+  <div class="text-3xl text-orange-500">→</div>
+  <div class="col-span-2 rounded-2xl border border-gray-200 bg-white px-4 py-5 shadow-sm">
+    <div class="text-sm opacity-60">device control</div>
+    <div class="mt-2 font-semibold">SwitchBot API</div>
+    <div class="text-sm opacity-70">照明 / エアコン</div>
+  </div>
 </div>
 
-<div class="mt-8 text-base opacity-70">
-家電操作は main agent の返答を待たずに先に処理<br>
-雑談や複雑な依頼は main 側に渡す
+<div class="mt-10 text-base opacity-70 text-center">
+雑談や複雑な依頼だけ main agent 側に渡す
 </div>
 
 ---
