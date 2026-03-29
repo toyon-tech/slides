@@ -1,0 +1,41 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="32" fill="#FFF9F5"/>
+
+  <rect x="120" y="180" width="260" height="180" rx="28" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
+  <text x="250" y="230" text-anchor="middle" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">outside</text>
+  <text x="250" y="300" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Discord</text>
+
+  <rect x="120" y="540" width="260" height="180" rx="28" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
+  <text x="250" y="590" text-anchor="middle" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">outside</text>
+  <text x="250" y="650" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">SwitchBot</text>
+  <text x="250" y="695" text-anchor="middle" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">API</text>
+
+  <rect x="470" y="110" width="980" height="680" rx="36" fill="#FFF1E8" stroke="#FDBA74" stroke-width="4"/>
+  <text x="960" y="170" text-anchor="middle" fill="#C2410C" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">OpenClaw</text>
+
+  <rect x="620" y="250" width="680" height="110" rx="24" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
+  <text x="960" y="295" text-anchor="middle" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">speech to text</text>
+  <text x="960" y="335" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">高速 STT</text>
+
+  <text x="960" y="420" text-anchor="middle" fill="#F97316" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">↓</text>
+
+  <rect x="620" y="455" width="680" height="110" rx="24" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
+  <text x="960" y="500" text-anchor="middle" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">routing</text>
+  <text x="960" y="540" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">audio-router</text>
+
+  <text x="960" y="625" text-anchor="middle" fill="#F97316" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">↓</text>
+
+  <rect x="620" y="660" width="680" height="110" rx="24" fill="#FFEDD5" stroke="#FB923C" stroke-width="3"/>
+  <text x="960" y="705" text-anchor="middle" fill="#C2410C" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">fast path</text>
+  <text x="960" y="745" text-anchor="middle" fill="#7C2D12" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">家電操作を先に実行</text>
+
+  <path d="M380 270 H520" stroke="#F97316" stroke-width="6" stroke-linecap="round"/>
+  <path d="M380 630 H520" stroke="#F97316" stroke-width="6" stroke-linecap="round"/>
+  <path d="M520 630 C560 630 560 715 620 715" stroke="#F97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <path d="M520 270 L500 258 L500 282 Z" fill="#F97316" transform="translate(20 0)"/>
+  <path d="M520 630 L500 618 L500 642 Z" fill="#F97316" transform="translate(20 0)"/>
+  <path d="M620 715 L600 703 L600 727 Z" fill="#F97316"/>
+
+  <text x="960" y="820" text-anchor="middle" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">雑談や複雑な依頼だけ main agent 側に渡す</text>
+</svg>
