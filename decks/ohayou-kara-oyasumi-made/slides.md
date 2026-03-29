@@ -53,7 +53,7 @@ body,
 }
 </style>
 
-# <span class="text-4xl">「おはよう」から「おやすみ」まで</span>
+# <span class="text-5xl">「おはよう」から「おやすみ」まで</span>
 
 <div class="mt-8 text-2xl opacity-85">OpenClaw の家電操作から始める AI 生活</div>
 
@@ -71,15 +71,9 @@ class: text-center
     <img src="../../public/decks/rails-omae-datta-no-ka/profile.jpg" class="rounded-2xl shadow-lg border border-gray-200 w-40 h-40 object-cover mx-auto" />
   </div>
   <div class="text-xl leading-10">
-    <div>- Ruby / Rails を使ったプロダクト開発が好き</div>
-    <div>- 普段は Web アプリケーション開発をしている</div>
-    <div>- 最近は OpenClaw にかなりハマっている</div>
-    <div>- 今回は Cloudflare + Hono で新規開発してみた</div>
+    <div>- Web アプリ開発のフリーランスエンジニア</div>
+    <div>- 最近は OpenClaw と遊ぶのが趣味</div>
   </div>
-</div>
-
-<div class="mt-10 text-lg opacity-80">
-Rails を外してみたからこそ、Rails のレールの価値がよく見えた
 </div>
 
 ---
