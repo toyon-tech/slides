@@ -81,20 +81,11 @@ layout: center
 class: text-center
 ---
 
-# やろうとしてること
+# やりたいこと
 
-<div class="mt-8 text-left inline-block text-xl leading-10">
-- Discord で OpenClaw に話しかける
-- 音声から意図を判定する
-- 家電を fastpath で操作する
-</div>
-
-<div class="mt-12 text-2xl leading-12 font-mono opacity-80">
-Discord音声<br>
-→ STT<br>
-→ audio-router<br>
-→ intent 判定<br>
-→ 家電操作
+<div class="mt-12 text-2xl leading-12 font-semibold opacity-85">
+「おはよう」で電気をつけて、<br>
+「おやすみ」で電気を消す。
 </div>
 
 ---
@@ -121,27 +112,7 @@ class: text-center
 
 # How it works
 
-<div class="mt-8 text-left inline-block text-xl leading-10 font-mono">
-Discord音声<br>
-↓<br>
-高速STT (local fstt)<br>
-↓<br>
-message:transcribed<br>
-↓<br>
-audio-router<br>
-├─ local Ollama で intent 判定<br>
-├─ transcript の揺らぎ補正<br>
-└─ fastpath なら即 API 実行<br>
-↓<br>
-SwitchBot API<br>
-↓<br>
-照明 / エアコン
-</div>
-
-<div class="mt-8 text-base opacity-70">
-家電操作は main agent の返答を待たずに先に処理<br>
-雑談や複雑な依頼は main 側に渡す
-</div>
+<img src="how-it-works.svg" class="mt-6 w-full max-h-[34rem] object-contain mx-auto" />
 
 ---
 layout: default
