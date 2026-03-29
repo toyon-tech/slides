@@ -12,6 +12,47 @@ mdc: true
 routerMode: hash
 ---
 
+<style>
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#slide-content,
+.slidev-layout {
+  background: #fffaf5 !important;
+  color: #111827 !important;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4,
+.slidev-layout h5,
+.slidev-layout h6,
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout div,
+.slidev-layout span,
+.slidev-layout blockquote {
+  color: #111827 !important;
+}
+
+.slidev-layout strong {
+  color: #0f172a !important;
+}
+
+.slidev-layout code {
+  color: #b45309 !important;
+}
+
+.slidev-layout a {
+  color: #c2410c !important;
+  text-decoration-color: rgba(194, 65, 12, 0.35) !important;
+}
+</style>
+
 # 「おはよう」から「おやすみ」まで
 
 <div class="mt-8 text-xl opacity-80">OpenClaw の家電操作で始める AI 生活</div>
@@ -23,13 +64,22 @@ layout: center
 class: text-center
 ---
 
-# 自己紹介
+# t0yohei について
 
-<div class="mt-8 text-left inline-block text-xl leading-10">
-- とよへい
-- OpenClaw を日常で使える相棒として育てている
-- 音声 UI と家電操作に興味がある
-- 今回は Discord 音声から部屋を動かす取り組みを紹介
+<div class="mt-8 grid grid-cols-[180px_1fr] gap-8 items-center text-left">
+  <div>
+    <img src="../../public/decks/rails-omae-datta-no-ka/profile.jpg" class="rounded-2xl shadow-lg border border-gray-200 w-40 h-40 object-cover mx-auto" />
+  </div>
+  <div class="text-xl leading-10">
+    <div>- Ruby / Rails を使ったプロダクト開発が好き</div>
+    <div>- 普段は Web アプリケーション開発をしている</div>
+    <div>- 最近は OpenClaw にかなりハマっている</div>
+    <div>- 今回は Cloudflare + Hono で新規開発してみた</div>
+  </div>
+</div>
+
+<div class="mt-10 text-lg opacity-80">
+Rails を外してみたからこそ、Rails のレールの価値がよく見えた
 </div>
 
 ---

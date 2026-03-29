@@ -25,6 +25,8 @@ seoMeta:
   color-scheme: light;
 }
 
+html,
+body,
 #slide-content,
 .slidev-layout {
   background: #fffaf5 !important;
@@ -40,7 +42,8 @@ seoMeta:
 .slidev-layout p,
 .slidev-layout li,
 .slidev-layout div,
-.slidev-layout span {
+.slidev-layout span,
+.slidev-layout blockquote {
   color: #111827 !important;
 }
 
@@ -50,6 +53,11 @@ seoMeta:
 
 .slidev-layout code {
   color: #b45309 !important;
+}
+
+.slidev-layout a {
+  color: #c2410c !important;
+  text-decoration-color: rgba(194, 65, 12, 0.35) !important;
 }
 </style>
 

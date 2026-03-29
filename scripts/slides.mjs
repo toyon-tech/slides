@@ -96,7 +96,7 @@ function ensureDeck(slug, title) {
 
   writeFileSync(
     entry,
-    `---\ntheme: seriph\ntitle: ${title}\ninfo: |\n  ${title}\nclass: text-center\ndrawings:\n  persist: false\ntransition: slide-left\nmdc: true\nrouterMode: hash\n---\n\n# ${title}\n\n<div class="mt-8 text-xl opacity-70">subtitle</div>\n\n<div class="mt-14 text-lg opacity-60">t0yohei</div>\n\n---\nlayout: section\n---\n\n# Section\n\n---\n\n# Message\n\n- point 1\n- point 2\n- point 3\n\n---\nlayout: center\nclass: text-center\n---\n\n# Thank you\n`,
+    `---\ntheme: seriph\ntitle: ${title}\ninfo: |\n  ${title}\nclass: text-center\ndrawings:\n  persist: false\ntransition: slide-left\nmdc: true\nrouterMode: hash\n---\n\n<style>\n:root {\n  color-scheme: light;\n}\n\nhtml,\nbody,\n#slide-content,\n.slidev-layout {\n  background: #fffaf5 !important;\n  color: #111827 !important;\n}\n\n.slidev-layout h1,\n.slidev-layout h2,\n.slidev-layout h3,\n.slidev-layout h4,\n.slidev-layout h5,\n.slidev-layout h6,\n.slidev-layout p,\n.slidev-layout li,\n.slidev-layout div,\n.slidev-layout span,\n.slidev-layout blockquote {\n  color: #111827 !important;\n}\n\n.slidev-layout strong {\n  color: #0f172a !important;\n}\n\n.slidev-layout code {\n  color: #b45309 !important;\n}\n\n.slidev-layout a {\n  color: #c2410c !important;\n  text-decoration-color: rgba(194, 65, 12, 0.35) !important;\n}\n</style>\n\n# ${title}\n\n<div class="mt-8 text-xl opacity-70">subtitle</div>\n\n<div class="mt-14 text-lg opacity-60">t0yohei</div>\n\n---\nlayout: section\n---\n\n# Section\n\n---\n\n# Message\n\n- point 1\n- point 2\n- point 3\n\n---\nlayout: center\nclass: text-center\n---\n\n# Thank you\n`,
   )
 }
 
@@ -142,6 +142,47 @@ transition: slide-left
 mdc: true
 routerMode: hash
 ---
+
+<style>
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#slide-content,
+.slidev-layout {
+  background: #fffaf5 !important;
+  color: #111827 !important;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4,
+.slidev-layout h5,
+.slidev-layout h6,
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout div,
+.slidev-layout span,
+.slidev-layout blockquote {
+  color: #111827 !important;
+}
+
+.slidev-layout strong {
+  color: #0f172a !important;
+}
+
+.slidev-layout code {
+  color: #b45309 !important;
+}
+
+.slidev-layout a {
+  color: #c2410c !important;
+  text-decoration-color: rgba(194, 65, 12, 0.35) !important;
+}
+</style>
 
 # Slide Deck Catalog
 
