@@ -20,8 +20,8 @@
   <text x="960" y="420" text-anchor="middle" fill="#F97316" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">↓</text>
 
   <rect x="620" y="455" width="680" height="110" rx="24" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="3"/>
-  <text x="960" y="500" text-anchor="middle" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">routing</text>
-  <text x="960" y="540" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">audio-router</text>
+  <text x="960" y="500" text-anchor="middle" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">hook</text>
+  <text x="960" y="540" text-anchor="middle" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">OpenClaw hook</text>
 
   <text x="960" y="625" text-anchor="middle" fill="#F97316" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">↓</text>
 
@@ -31,11 +31,11 @@
 
   <path d="M380 270 H520" stroke="#F97316" stroke-width="6" stroke-linecap="round"/>
   <path d="M380 630 H520" stroke="#F97316" stroke-width="6" stroke-linecap="round"/>
-  <path d="M520 630 C560 630 560 715 620 715" stroke="#F97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M1300 715 H1380" stroke="#F97316" stroke-width="6" stroke-linecap="round"/>
 
   <path d="M520 270 L500 258 L500 282 Z" fill="#F97316" transform="translate(20 0)"/>
   <path d="M520 630 L500 618 L500 642 Z" fill="#F97316" transform="translate(20 0)"/>
-  <path d="M620 715 L600 703 L600 727 Z" fill="#F97316"/>
+  <path d="M1380 715 L1360 703 L1360 727 Z" fill="#F97316"/>
 
   <text x="960" y="820" text-anchor="middle" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">雑談や複雑な依頼だけ main agent 側に渡す</text>
 </svg>
