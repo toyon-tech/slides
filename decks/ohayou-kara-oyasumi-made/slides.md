@@ -68,7 +68,7 @@ class: text-center
 
 <div class="mt-8 grid grid-cols-[180px_1fr] gap-8 items-center text-left">
   <div>
-    <img src="../../public/decks/profile.jpg" class="rounded-2xl shadow-lg border border-gray-200 w-40 h-40 object-cover mx-auto" />
+    <img src="/decks/profile.jpg" class="rounded-2xl shadow-lg border border-gray-200 w-40 h-40 object-cover mx-auto" />
   </div>
   <div class="text-xl leading-10">
     <div>- Web アプリ開発のフリーランスエンジニア</div>
@@ -112,7 +112,7 @@ class: text-center
 
 # How it works
 
-<img src="../../public/decks/ohayou-kara-oyasumi-made/how-it-works.svg" class="mt-6 w-full max-h-[34rem] object-contain mx-auto" />
+<img src="/decks/ohayou-kara-oyasumi-made/how-it-works.svg" class="mt-6 w-full max-h-[34rem] object-contain mx-auto" />
 
 ---
 layout: default
