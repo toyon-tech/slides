@@ -10,6 +10,14 @@ transition: slide-left
 duration: 7min
 mdc: true
 routerMode: hash
+seoMeta:
+  ogTitle: 「おはよう」から「おやすみ」まで
+  ogDescription: OpenClaw の家電操作から始める AI 生活
+  ogImage: https://t0yohei.github.io/slides/decks/ohayou-kara-oyasumi-made/ogp.png
+  twitterCard: summary_large_image
+  twitterTitle: 「おはよう」から「おやすみ」まで
+  twitterDescription: OpenClaw の家電操作から始める AI 生活
+  twitterImage: https://t0yohei.github.io/slides/decks/ohayou-kara-oyasumi-made/ogp.png
 ---
 
 <style>

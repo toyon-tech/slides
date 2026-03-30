@@ -1,0 +1,70 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F2"/>
+      <stop offset="1" stop-color="#F8E7D8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#FFF1E4" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="630" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#7C2D12" flood-opacity="0.16"/>
+    </filter>
+    <filter id="soft" x="0" y="0" width="1200" height="630" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#EA580C" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1042" cy="116" r="82" fill="#FDBA74" opacity="0.20"/>
+  <circle cx="1098" cy="80" r="24" fill="#FB923C" opacity="0.28"/>
+  <circle cx="110" cy="94" r="18" fill="#F59E0B" opacity="0.20"/>
+
+  <path d="M72 494C188 454 265 456 392 500C515 542 604 543 729 490C862 434 968 436 1130 502" stroke="#D97757" stroke-width="8" stroke-linecap="round" opacity="0.30"/>
+  <path d="M72 532C189 492 266 494 394 538C517 580 606 581 731 528C865 472 970 474 1130 540" stroke="#9A3412" stroke-width="8" stroke-linecap="round" opacity="0.18"/>
+
+  <text x="86" y="96" fill="#9A3412" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700" letter-spacing="0.08em">SLIDE DECK</text>
+
+  <g filter="url(#shadow)">
+    <text x="84" y="210" fill="#111827" font-size="78" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="800">「おはよう」から</text>
+    <text x="84" y="300" fill="#111827" font-size="78" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="800">「おやすみ」まで</text>
+  </g>
+
+  <text x="88" y="402" fill="#374151" font-size="34" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="500">OpenClaw の家電操作から始める AI 生活</text>
+
+  <rect x="84" y="462" width="418" height="2" fill="#C2410C" opacity="0.34"/>
+
+  <g filter="url(#soft)">
+    <rect x="764" y="144" width="340" height="258" rx="36" fill="url(#card)" stroke="#F3C7A7"/>
+  </g>
+
+  <g>
+    <rect x="836" y="224" width="196" height="126" rx="24" fill="#FFF7ED" stroke="#FDBA74" stroke-width="4"/>
+    <rect x="860" y="248" width="46" height="76" rx="14" fill="#FB923C" opacity="0.18"/>
+    <rect x="920" y="248" width="88" height="18" rx="9" fill="#FDBA74" opacity="0.90"/>
+    <rect x="920" y="280" width="68" height="18" rx="9" fill="#FED7AA"/>
+    <circle cx="884" cy="286" r="18" fill="url(#accent)"/>
+    <path d="M875 286L881 292L894 279" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="920" y="312" width="52" height="12" rx="6" fill="#E5E7EB"/>
+  </g>
+
+  <g>
+    <path d="M752 184C752 152 777 126 808 126H854C885 126 910 152 910 184C910 216 885 242 854 242H828L792 270L800 242H808C777 242 752 216 752 184Z" fill="#FFE7C2" stroke="#FDBA74" stroke-width="4"/>
+    <circle cx="803" cy="184" r="28" fill="#F59E0B"/>
+    <path d="M803 140L810 160L831 160L814 173L820 194L803 181L786 194L792 173L775 160L796 160L803 140Z" fill="#FFF7ED"/>
+  </g>
+
+  <g>
+    <path d="M950 108C950 78 974 54 1004 54H1044C1074 54 1098 78 1098 108C1098 138 1074 162 1044 162H1022L995 188L1000 162H1004C974 162 950 138 950 108Z" fill="#1F2937" opacity="0.94"/>
+    <path d="M1030 82C1012 82 998 96 998 114C998 132 1012 146 1030 146C1045 146 1058 136 1062 123C1053 128 1042 126 1035 118C1027 109 1025 95 1030 82Z" fill="#FFF7ED"/>
+  </g>
+
+  <text x="88" y="528" fill="#7C2D12" font-size="28" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="700">t0yohei / 🦞ClawCon Tokyo</text>
+  <text x="88" y="570" fill="#6B7280" font-size="22" font-family="Inter, Arial, sans-serif" font-weight="500">OpenClaw / smart home / voice command / morning to night</text>
+</svg>
