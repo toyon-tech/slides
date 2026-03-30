@@ -99,14 +99,14 @@ class: text-center
 
 <div class="mt-8 flex justify-center">
   <iframe
-    width="960"
-    height="540"
+    width="768"
+    height="432"
     src="https://www.youtube.com/embed/fnO_I4Hi8lk"
     title="Demo video"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
-    class="rounded-2xl shadow-lg border border-gray-200 max-w-full"
+    class="rounded-xl shadow-lg border border-gray-200 max-w-full"
   ></iframe>
 </div>
 
