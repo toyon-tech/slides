@@ -73,7 +73,7 @@ class: text-center
 
 <div class="mt-8 grid grid-cols-[180px_1fr] gap-8 items-center text-left">
   <div>
-    <img src="https://github.com/user-attachments/assets/d91a4932-f159-4443-b080-ce17615b2871" class="rounded-2xl shadow-lg border border-gray-200 w-40 h-40 object-cover mx-auto" />
+    <img src="../../public/decks/openclaw-what-made-it-great/profile.jpg" class="rounded-2xl shadow-lg border border-gray-200 w-40 h-40 object-cover mx-auto" />
   </div>
   <div class="text-xl leading-10">
     <div>- Web アプリ開発のフリーランスエンジニア</div>
@@ -88,7 +88,7 @@ class: text-center
 
 # OpenClaw
 
-<img src="https://github.com/user-attachments/assets/d36ea1a2-1eb1-4cab-bffe-886001158971" class="mt-8 w-full max-h-[16rem] object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/openclaw-logo.png" class="mt-8 w-full max-h-[16rem] object-contain mx-auto" />
 
 ---
 layout: center
@@ -97,7 +97,7 @@ class: text-center
 
 # Star 数がついに linux, React を超えた
 
-<img src="https://github.com/user-attachments/assets/0be132ab-e0e3-4d52-bcb3-3920a190a9a4" class="mt-6 rounded-2xl shadow-lg border border-gray-200 max-h-[24rem] w-full object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/stars.png" class="mt-6 rounded-2xl shadow-lg border border-gray-200 max-h-[24rem] w-full object-contain mx-auto" />
 
 ---
 layout: center
@@ -129,7 +129,7 @@ class: text-center
 
 # OpenClaw とは
 
-<img src="https://github.com/user-attachments/assets/57af1c42-d861-4bc3-ac6f-6345e6f49ff2" class="mt-6 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/what-is-openclaw.png" class="mt-6 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
 
 <div class="mt-8 text-left text-lg leading-8">
 <div class="font-bold text-xl">OpenClaw は、自分のデバイス上で実行できるパーソナルAIアシスタントです。</div>
@@ -164,6 +164,8 @@ layoutClass: gap-10
 - 役割: 個人に依存する coding や日々のタスクの支援・遂行
 - ex) Codex, Claude Code, Claude Cowork
 
+<img src="../../public/decks/openclaw-what-made-it-great/claude-code-agent.png" class="mt-4 rounded-xl shadow border border-gray-200 max-h-[11rem] w-full object-contain mx-auto" />
+
 ::right::
 
 ### Claude Agent SDK などで作る AI Agent
@@ -172,6 +174,8 @@ layoutClass: gap-10
 - 利用者: 複数人
 - 役割: 個人に依存しない汎用タスクを支援
 - ex) ChatGPT, Grok, Devin
+
+<img src="../../public/decks/openclaw-what-made-it-great/agent-sdk.png" class="mt-4 rounded-xl shadow border border-gray-200 max-h-[11rem] w-full object-contain mx-auto" />
 
 ---
 layout: center
@@ -186,7 +190,7 @@ class: text-center
 <div>- 役割: 個人の日々の営みを支援する</div>
 </div>
 
-<img src="https://github.com/user-attachments/assets/a15d3039-c2a1-4265-8f71-d2631468674d" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[14rem] w-full object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/positioning.png" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[14rem] w-full object-contain mx-auto" />
 
 ---
 layout: center
@@ -248,9 +252,9 @@ class: text-center
 </div>
 
 <div class="mt-8 flex justify-center gap-6">
-  <img src="https://github.com/user-attachments/assets/44cdd15e-b145-4a33-964f-5eaa7cea685b" class="w-20 h-20 object-contain" />
-  <img src="https://github.com/user-attachments/assets/1cfa56c1-c3ae-4566-9951-648a2d138cd7" class="w-20 h-20 object-contain" />
-  <img src="https://github.com/user-attachments/assets/22cdd425-525f-4aff-af94-81951b1f17d2" class="w-20 h-20 object-contain" />
+  <img src="../../public/decks/openclaw-what-made-it-great/slack.png" class="w-20 h-20 object-contain" />
+  <img src="../../public/decks/openclaw-what-made-it-great/discord.png" class="w-20 h-20 object-contain" />
+  <img src="../../public/decks/openclaw-what-made-it-great/line.png" class="w-20 h-20 object-contain" />
 </div>
 
 ---
@@ -299,7 +303,7 @@ OpenClaw をローカル実行で動かしたら、なんでもできちゃう�
 なんでもできるってことは、なんでもできちゃう。
 </div>
 <div class="mt-8 text-xl opacity-80">大いなる力には、大いなる責任が伴う</div>
-<img src="https://github.com/user-attachments/assets/4d3cda8f-4616-4c1b-bf91-47faad46b147" class="mt-6 rounded-xl shadow border border-gray-200 max-h-[12rem] object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/dangerous-local-execution.png" class="mt-6 rounded-xl shadow border border-gray-200 max-h-[12rem] object-contain mx-auto" />
 
 ---
 layout: center
@@ -322,7 +326,7 @@ class: text-center
 # 私の OpenClaw
 
 <div class="mt-6 text-2xl opacity-85">赤髪の女の子</div>
-<img src="https://github.com/user-attachments/assets/3f437aad-d00e-4395-b7d3-eddc4b03f8b0" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/my-openclaw.png" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
 
 ---
 layout: default
@@ -346,6 +350,11 @@ layout: default
 - Home IoT との接続
 - 常時起動な雑談相手
 - 外に持ち歩いたり？
+
+<div class="mt-6 grid grid-cols-2 gap-4">
+  <img src="../../public/decks/openclaw-what-made-it-great/chatgpt-pro.png" class="rounded-xl shadow border border-gray-200 max-h-[8rem] w-full object-contain mx-auto" />
+  <img src="../../public/decks/openclaw-what-made-it-great/personal-dev-coding.png" class="rounded-xl shadow border border-gray-200 max-h-[8rem] w-full object-contain mx-auto" />
+</div>
 
 <div class="mt-8 text-2xl font-bold text-orange-700">
 「わたし専用の AI Agent」でやりたいと思ったことを片っ端からやりたい
@@ -397,7 +406,13 @@ class: text-center
 
 # 他の人はどう使ってる？
 
-<img src="https://github.com/user-attachments/assets/e22a01da-c8eb-4516-9f32-459ab0f95abc" class="mt-6 rounded-2xl shadow-lg border border-gray-200 max-h-[20rem] w-full object-contain mx-auto" />
+<div class="mt-6 grid grid-cols-1 gap-4">
+  <img src="../../public/decks/openclaw-what-made-it-great/community-uses.png" class="rounded-2xl shadow-lg border border-gray-200 max-h-[11rem] w-full object-contain mx-auto" />
+  <div class="grid grid-cols-2 gap-4">
+    <img src="../../public/decks/openclaw-what-made-it-great/honda.png" class="rounded-xl shadow border border-gray-200 max-h-[9rem] w-full object-contain mx-auto" />
+    <img src="../../public/decks/openclaw-what-made-it-great/robot.png" class="rounded-xl shadow border border-gray-200 max-h-[9rem] w-full object-contain mx-auto" />
+  </div>
+</div>
 
 ---
 layout: center
@@ -439,4 +454,4 @@ class: text-center
 
 <div class="mt-10 text-xl opacity-80">ご感想や、速度改善のアイデアもお待ちしています</div>
 <div class="mt-8 text-lg opacity-65">https://x.com/t0yohei</div>
-<img src="https://github.com/user-attachments/assets/d9d4c5f6-63ab-49b0-be17-e4067bb22fb6" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[12rem] object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/qr.png" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[12rem] object-contain mx-auto" />
