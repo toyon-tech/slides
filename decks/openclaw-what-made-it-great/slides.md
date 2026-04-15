@@ -45,6 +45,22 @@ body,
   color: #111827 !important;
 }
 
+.slidev-layout h1 {
+  font-size: 2.5rem !important;
+  line-height: 1.2 !important;
+}
+
+.title-only {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.title-only h1 {
+  margin: 0;
+}
+
 .slidev-layout strong {
   color: #0f172a !important;
 }
@@ -102,7 +118,9 @@ layout: center
 class: text-center
 ---
 
-# OpenClaw は何が偉大だったのか
+<div class="title-only">
+  <h1>OpenClaw は何が偉大だったのか</h1>
+</div>
 
 ---
 layout: center
@@ -136,11 +154,11 @@ layoutClass: gap-10
 
 # 要はパーソナルAIアシスタント
 
-<div class="mt-6 text-left text-xl leading-10">
-<div>- 自分専用</div>
-<div>- 自分の環境で動く</div>
-<div>- 自分の日常に入り込める</div>
-</div>
+<ul class="mt-6 text-left text-xl leading-10 list-disc pl-6">
+  <li>自分専用</li>
+  <li>自分の環境で動く</li>
+  <li>自分の日常に入り込める</li>
+</ul>
 
 ---
 layout: two-cols
@@ -176,13 +194,14 @@ class: text-center
 
 # OpenClaw の立ち位置は？
 
-<div class="mt-10 text-left inline-block text-2xl leading-12">
-<div>- 動く場所: Mac mini やクラウド上のサーバーなど</div>
-<div>- 利用者: 基本的には個人</div>
-<div>- 役割: 個人の日々の営みを支援する</div>
+<div class="mt-8 grid grid-cols-[1fr_20rem] gap-8 items-center text-left">
+  <ul class="text-2xl leading-12 list-disc pl-6">
+    <li>動く場所: Mac mini やクラウド上のサーバーなど</li>
+    <li>利用者: 基本的には個人</li>
+    <li>役割: 個人の日々の営みを支援する</li>
+  </ul>
+  <img src="../../public/decks/openclaw-what-made-it-great/positioning.png" class="rounded-2xl shadow-lg border border-gray-200 max-h-[16rem] w-full object-contain mx-auto" />
 </div>
-
-<img src="../../public/decks/openclaw-what-made-it-great/positioning.png" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[14rem] w-full object-contain mx-auto" />
 
 ---
 layout: center
@@ -201,7 +220,9 @@ Claude Agent SDK を Mac mini などに入れて、<br>
 layout: default
 ---
 
-# OpenClaw は何が特別だったのか
+<div class="title-only">
+  <h1>OpenClaw は何が特別だったのか</h1>
+</div>
 
 ---
 layout: default
@@ -242,10 +263,10 @@ class: text-center
 
 # 普段使いのチャネルへの接続
 
-<div class="mt-10 text-left inline-block text-2xl leading-12">
-<div>- Slack、Discord、Line などへの接続</div>
-<div>- より馴染み深い存在へ</div>
-</div>
+<ul class="mt-10 inline-block text-left text-2xl leading-12 list-disc pl-6">
+  <li>Slack、Discord、Line などへの接続</li>
+  <li>より馴染み深い存在へ</li>
+</ul>
 
 <div class="mt-8 flex justify-center gap-6">
   <img src="../../public/decks/openclaw-what-made-it-great/slack.png" class="w-20 h-20 object-contain" />
@@ -277,14 +298,13 @@ layout: default
 layout: default
 ---
 
-# カスタマイズ性と危険なローカル実行
+# カスタマイズ性と危険なホスト実行
 
 - skill, plugin, cron, hook, tool, ACP
 - 「自分専用」に育てる余地が大きい
-- でも、ローカル実行で動かしたらなんでもできちゃう
+- でも、ローカル実行で動かしたら本当にいろいろできてしまう
 
-<div class="mt-6 text-xl font-semibold">大いなる力には、大いなる責任が伴う</div>
-<img src="../../public/decks/openclaw-what-made-it-great/dangerous-local-execution.png" class="mt-6 rounded-xl shadow border border-gray-200 max-h-[11rem] object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/dangerous-local-execution.png" class="mt-8 rounded-xl shadow border border-gray-200 max-h-[11rem] object-contain mx-auto" />
 
 ---
 layout: center
@@ -297,23 +317,17 @@ class: text-center
 OpenClaw をローカル実行で動かしたら、なんでもできちゃう。
 </div>
 <div class="mt-8 text-2xl leading-12 font-semibold">
-なんでもできるってことは、なんでもできちゃう。
+だからこそ、「自分なら何に使うか」が一番大事になる。
 </div>
 <div class="mt-8 text-xl opacity-80">大いなる力には、大いなる責任が伴う</div>
-<img src="../../public/decks/openclaw-what-made-it-great/dangerous-local-execution.png" class="mt-6 rounded-xl shadow border border-gray-200 max-h-[12rem] object-contain mx-auto" />
-
----
-layout: center
-class: text-center
----
-
-# それで何をやるのかは、わたしの・あなたの想像力次第
 
 ---
 layout: section
 ---
 
-# 私は何をやってるのか
+<div class="title-only">
+  <h1>私は何をやってるのか</h1>
+</div>
 
 ---
 layout: center
@@ -422,7 +436,9 @@ class: text-center
 layout: section
 ---
 
-# まとめ
+<div class="title-only">
+  <h1>まとめ</h1>
+</div>
 
 ---
 layout: center
