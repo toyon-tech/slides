@@ -127,9 +127,17 @@ layout: center
 class: text-center
 ---
 
-<div class="max-w-4xl mx-auto mt-12 text-2xl leading-12 font-semibold opacity-90 text-center">
-  <div>OpenClaw が与えたのは、単なる便利ツールではなく、</div>
-  <div class="mt-6 text-3xl leading-12">「自分専用の相棒を持てるかもしれない」という感覚</div>
+<div class="title-only">
+  <h1>人々の想像力を爆発させた</h1>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="title-only">
+  <h1>🤔？</h1>
 </div>
 
 ---
@@ -144,11 +152,10 @@ class: text-center
 <div class="mt-8 text-left text-lg leading-8">
 <div class="font-bold text-xl">OpenClaw は、自分のデバイス上で実行できるパーソナルAIアシスタントです。</div>
 <div class="mt-4">Slack、Discord、Line など普段使っているチャネルを通してあなたに応答します。</div>
-<div class="mt-2">ローカルで動作し、高速で、常に利用可能なあなただけのパーソナルアシスタント。</div>
 </div>
 
 ---
-layout: two-cols
+layout: center
 layoutClass: gap-10
 ---
 
@@ -161,24 +168,26 @@ layoutClass: gap-10
 </ul>
 
 ---
-layout: two-cols
+layout: two-cols-header
 layoutClass: gap-10
 ---
 
 # 他の AI Agent とはどう違うか
 
+::left::
+
 ### Claude Code などの AI Agent
 
 - 動く場所: 基本的に個人の PC 上
 - 利用者: 個人
-- 役割: 個人に依存する coding や日々のタスクの支援・遂行
+- 役割: 個人に依存する日々のタスク支援
 - ex) Codex, Claude Code, Claude Cowork
 
 <img src="../../public/decks/openclaw-what-made-it-great/claude-code-agent.png" class="mt-4 rounded-xl shadow border border-gray-200 max-h-[11rem] w-full object-contain mx-auto" />
 
 ::right::
 
-### Claude Agent SDK などで作る AI Agent
+### Agent SDK などで作る AI Agent
 
 - 動く場所: クラウドや物理のサーバー上
 - 利用者: 複数人
@@ -196,24 +205,11 @@ class: text-center
 
 <div class="mt-10 grid grid-cols-[1.2fr_0.8fr] gap-10 items-center text-left">
   <ul class="text-2xl leading-[3.2rem] list-disc pl-8">
-    <li>動く場所: Mac mini やクラウド上のサーバーなど</li>
+    <li>動く場所: Mac mini や VPS など</li>
     <li>利用者: 基本的には個人</li>
     <li>役割: 個人の日々の営みを支援する</li>
   </ul>
   <img src="../../public/decks/openclaw-what-made-it-great/positioning.png" class="rounded-2xl shadow-lg border border-gray-200 max-h-[17rem] w-full object-contain mx-auto" />
-</div>
-
----
-layout: center
-class: text-center
----
-
-# OpenClaw じゃなくて Claude Code で良くね？
-
-<div class="mt-10 text-3xl font-bold text-orange-700">半分 Yes</div>
-<div class="mt-8 text-xl leading-10 opacity-85">
-Claude Agent SDK を Mac mini などに入れて、<br>
-個人用にカスタムしまくれば OpenClaw みたいになる
 </div>
 
 ---
@@ -228,11 +224,12 @@ layout: default
 layout: default
 ---
 
+# OpenClaw がやったこと
+
 <div class="mt-8 text-xl leading-10">
-<div class="font-bold">OpenClaw がやったこと</div>
-<div class="mt-4">「わたし専用の AI Agent」という概念と体験を人々に与えた</div>
-<div class="mt-4">その上で「あなたはこれを使って何をしますか？」という問いを人々に与えた</div>
-<div class="mt-4 text-2xl font-bold text-orange-700">だから、想像力が爆発した</div>
+<div class="mt-4"><b>「わたし専用の AI Agent」</b>という概念と体験を人々に与えた</div>
+<div class="mt-4">その上で<b>「あなたはこれを使って何をしますか？」</b>という問いを人々に与えた</div>
+<div class="mt-4 text-2xl text-orange-700"><b>だから、想像力が爆発した</b></div>
 </div>
 
 ---
@@ -275,54 +272,62 @@ class: text-center
 </div>
 
 ---
-layout: default
+layout: center
+class: text-center
 ---
 
-# 豊富な integration, plugin, skill, heartbeat
+# 豊富な公式 integration, plugin, skill
 
-- Brave, Ollama, 1password, github, notion, openhue, peekaboo, etc...
-- より有能なアシスタントへ
+<ul class="mt-10 inline-block text-left text-2xl leading-12 list-disc pl-6">
+  <li>Brave, Ollama, 1Password, GitHub, Notion, Peekaboo, etc...</li>
+  <li>より有能なアシスタントへ</li>
+</ul>
+
 
 ---
-layout: default
+layout: two-cols-header
 ---
 
-# 記憶システム
+# 記憶システムと人格維持
+
+::left::
 
 - 短期記憶としての session
 - 中期記憶としての daily memory
 - 長期記憶としての MEMORY.md
 - built in の記憶検索システム
 
+::right::
+
+- OpenAI などの Model へのリクエスト時に、毎回プロンプトインジェクションしてコンテキストを渡してる
+- OpenClaw 固有の prompt (skill 情報、plugin 情報、etc...)を system prompt としてインジェクション
+- User 固有の prompt (AGENT.md, MEMORY.md, SOUL.md, etc...)を user prompt としてインジェクション
+
 ---
 layout: default
 ---
 
-# カスタマイズ性と危険なホスト実行
+# カスタマイズ性
 
 - skill, plugin, cron, hook, tool, ACP
 - 「自分専用」に育てる余地が大きい
-- でも、ホスト実行で動かしたら本当にいろいろできてしまう
 
-<img src="../../public/decks/openclaw-what-made-it-great/dangerous-local-execution.png" class="mt-8 rounded-xl shadow border border-gray-200 max-h-[11rem] object-contain mx-auto" />
 
 ---
 layout: center
 class: text-center
 ---
 
-# それで何をやるのかは、わたしの・あなたの想像力次第
+# 危険なホスト実行
 
 <div class="max-w-4xl mx-auto mt-10 text-center">
   <div class="text-2xl leading-12 opacity-90">OpenClaw をホスト実行で動かしたら、なんでもできちゃう。</div>
-  <div class="mt-8 text-3xl leading-12 font-semibold">だからこそ、「自分なら何に使うか」が一番大事になる。</div>
+  <div class="mt-8 text-3xl leading-12 font-semibold">なんでもできちゃうってことは、なんでもできる。</div>
   <div class="mt-10 text-xl opacity-80">大いなる力には、大いなる責任が伴う</div>
 </div>
 
-<div class="mt-16 text-center">
-  <div class="text-xl opacity-70 tracking-[0.2em]">MY OPENCLAW</div>
-  <div class="mt-4 text-3xl font-semibold">私は何をやってるのか</div>
-</div>
+<img src="../../public/decks/openclaw-what-made-it-great/dangerous-local-execution.png" class="mt-8 rounded-xl shadow border border-gray-200 max-h-[11rem] object-contain mx-auto" />
+
 
 ---
 layout: center
@@ -358,7 +363,6 @@ layout: default
 - 経費精算関連のタスク
 - Home IoT との接続
 - 常時起動な雑談相手
-- 外に持ち歩いたり？
 
 <div class="mt-6 flex justify-center">
   <img src="../../public/decks/openclaw-what-made-it-great/personal-dev-coding.png" class="rounded-xl shadow border border-gray-200 max-h-[8rem] w-full max-w-[24rem] object-contain mx-auto" />
@@ -369,11 +373,13 @@ layout: default
 </div>
 
 ---
-layout: two-cols
+layout: two-cols-header
 layoutClass: gap-10
 ---
 
 # 具体例
+
+::left::
 
 <div class="space-y-6 text-left text-xl leading-9">
   <div>
