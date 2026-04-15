@@ -75,9 +75,9 @@ body,
 }
 </style>
 
-# Re: OpenClaw と始める AI 生活
+# OpenClaw は何が偉大だったのか
 
-<div class="mt-8 text-2xl opacity-80">~ OpenClaw は何が偉大だったのか ~</div>
+<div class="mt-8 text-2xl opacity-80">~ Re: OpenClaw と始める AI 生活 ~</div>
 <div class="mt-14 text-lg opacity-60">t0yohei @ 五反田AI vol.2</div>
 
 ---
