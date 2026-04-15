@@ -127,9 +127,9 @@ layout: center
 class: text-center
 ---
 
-<div class="mt-10 text-2xl leading-12 font-semibold opacity-90">
-OpenClaw が与えたのは、単なる便利ツールではなく、<br>
-「自分専用の相棒を持てるかもしれない」という感覚
+<div class="max-w-4xl mx-auto mt-12 text-2xl leading-12 font-semibold opacity-90 text-center">
+  <div>OpenClaw が与えたのは、単なる便利ツールではなく、</div>
+  <div class="mt-6 text-3xl leading-12">「自分専用の相棒を持てるかもしれない」という感覚</div>
 </div>
 
 ---
@@ -154,7 +154,7 @@ layoutClass: gap-10
 
 # 要はパーソナルAIアシスタント
 
-<ul class="mt-6 text-left text-xl leading-10 list-disc pl-6">
+<ul class="mt-10 mx-auto max-w-2xl text-left text-2xl leading-[3.2rem] list-disc pl-8">
   <li>自分専用</li>
   <li>自分の環境で動く</li>
   <li>自分の日常に入り込める</li>
@@ -194,13 +194,13 @@ class: text-center
 
 # OpenClaw の立ち位置は？
 
-<div class="mt-8 grid grid-cols-[1fr_20rem] gap-8 items-center text-left">
-  <ul class="text-2xl leading-12 list-disc pl-6">
+<div class="mt-10 grid grid-cols-[1.2fr_0.8fr] gap-10 items-center text-left">
+  <ul class="text-2xl leading-[3.2rem] list-disc pl-8">
     <li>動く場所: Mac mini やクラウド上のサーバーなど</li>
     <li>利用者: 基本的には個人</li>
     <li>役割: 個人の日々の営みを支援する</li>
   </ul>
-  <img src="../../public/decks/openclaw-what-made-it-great/positioning.png" class="rounded-2xl shadow-lg border border-gray-200 max-h-[16rem] w-full object-contain mx-auto" />
+  <img src="../../public/decks/openclaw-what-made-it-great/positioning.png" class="rounded-2xl shadow-lg border border-gray-200 max-h-[17rem] w-full object-contain mx-auto" />
 </div>
 
 ---
@@ -242,7 +242,7 @@ class: text-center
 
 # どういうことか
 
-<div class="mt-10 text-2xl opacity-85">体験の設計を分解してみる</div>
+<div class="mt-16 text-3xl opacity-85">体験の設計を分解してみる</div>
 
 ---
 layout: center
@@ -302,7 +302,7 @@ layout: default
 
 - skill, plugin, cron, hook, tool, ACP
 - 「自分専用」に育てる余地が大きい
-- でも、ローカル実行で動かしたら本当にいろいろできてしまう
+- でも、ホスト実行で動かしたら本当にいろいろできてしまう
 
 <img src="../../public/decks/openclaw-what-made-it-great/dangerous-local-execution.png" class="mt-8 rounded-xl shadow border border-gray-200 max-h-[11rem] object-contain mx-auto" />
 
@@ -313,20 +313,15 @@ class: text-center
 
 # それで何をやるのかは、わたしの・あなたの想像力次第
 
-<div class="mt-8 text-2xl leading-12 opacity-90">
-OpenClaw をローカル実行で動かしたら、なんでもできちゃう。
+<div class="max-w-4xl mx-auto mt-10 text-center">
+  <div class="text-2xl leading-12 opacity-90">OpenClaw をホスト実行で動かしたら、なんでもできちゃう。</div>
+  <div class="mt-8 text-3xl leading-12 font-semibold">だからこそ、「自分なら何に使うか」が一番大事になる。</div>
+  <div class="mt-10 text-xl opacity-80">大いなる力には、大いなる責任が伴う</div>
 </div>
-<div class="mt-8 text-2xl leading-12 font-semibold">
-だからこそ、「自分なら何に使うか」が一番大事になる。
-</div>
-<div class="mt-8 text-xl opacity-80">大いなる力には、大いなる責任が伴う</div>
 
----
-layout: section
----
-
-<div class="title-only">
-  <h1>私は何をやってるのか</h1>
+<div class="mt-16 text-center">
+  <div class="text-xl opacity-70 tracking-[0.2em]">MY OPENCLAW</div>
+  <div class="mt-4 text-3xl font-semibold">私は何をやってるのか</div>
 </div>
 
 ---
