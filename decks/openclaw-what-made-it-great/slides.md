@@ -411,7 +411,11 @@ layoutClass: gap-10
     <div class="opacity-80">常時起動な雑談相手</div>
   </div>
 
-<img src="../../public/decks/openclaw-what-made-it-great/png_tuber.jpg" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
+<img src="../../public/decks/openclaw-what-made-it-great/aicu-note.png" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
+
+<div class="text-right text-sm opacity-55">
+  Source: https://note.com/aicu/n/ncc85d368f574
+</div>
 
 </div>
 
