@@ -41,28 +41,28 @@
   <rect x="84" y="446" width="500" height="2" fill="#C2410C" opacity="0.34"/>
 
   <g filter="url(#soft)">
-    <rect x="742" y="168" width="248" height="204" rx="30" fill="url(#card)" stroke="#F3C7A7"/>
+    <rect x="700" y="178" width="214" height="176" rx="26" fill="url(#card)" stroke="#F3C7A7"/>
   </g>
 
   <g>
-    <rect x="776" y="208" width="180" height="126" rx="22" fill="#FFF7ED" stroke="#FDBA74" stroke-width="4"/>
-    <circle cx="814" cy="252" r="17" fill="url(#accent)"/>
-    <path d="M808 252L812 256L822 246" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="844" y="238" width="92" height="14" rx="7" fill="#FDBA74" opacity="0.92"/>
-    <rect x="844" y="264" width="70" height="12" rx="6" fill="#FED7AA"/>
-    <rect x="844" y="288" width="98" height="12" rx="6" fill="#E5E7EB"/>
+    <rect x="730" y="212" width="154" height="108" rx="20" fill="#FFF7ED" stroke="#FDBA74" stroke-width="4"/>
+    <circle cx="763" cy="250" r="14" fill="url(#accent)"/>
+    <path d="M758 250L761 254L770 245" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="790" y="238" width="80" height="12" rx="6" fill="#FDBA74" opacity="0.92"/>
+    <rect x="790" y="260" width="60" height="10" rx="5" fill="#FED7AA"/>
+    <rect x="790" y="280" width="84" height="10" rx="5" fill="#E5E7EB"/>
   </g>
 
   <g>
-    <path d="M720 190C720 166 740 146 764 146H804C828 146 848 166 848 190C848 214 828 234 804 234H789L764 256L768 234H764C740 234 720 214 720 190Z" fill="#FFE7C2" stroke="#FDBA74" stroke-width="4"/>
-    <circle cx="765" cy="190" r="20" fill="#F59E0B"/>
-    <text x="754" y="198" fill="#FFF7ED" font-size="22" font-family="Inter, Arial, sans-serif" font-weight="800">?</text>
+    <path d="M682 196C682 174 700 156 722 156H758C780 156 798 174 798 196C798 218 780 236 758 236H745L722 256L726 236H722C700 236 682 218 682 196Z" fill="#FFE7C2" stroke="#FDBA74" stroke-width="4"/>
+    <circle cx="723" cy="196" r="18" fill="#F59E0B"/>
+    <text x="713" y="203" fill="#FFF7ED" font-size="20" font-family="Inter, Arial, sans-serif" font-weight="800">?</text>
   </g>
 
   <g>
-    <path d="M870 126C870 102 890 82 914 82H946C970 82 990 102 990 126C990 150 970 170 946 170H930L908 191L912 170H914C890 170 870 150 870 126Z" fill="#1F2937" opacity="0.94"/>
-    <circle cx="913" cy="126" r="17" fill="#FB923C"/>
-    <path d="M905 126L910 131L921 120" stroke="#FFF7ED" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M810 138C810 116 828 98 850 98H880C902 98 920 116 920 138C920 160 902 178 880 178H866L846 196L850 178H850C828 178 810 160 810 138Z" fill="#1F2937" opacity="0.94"/>
+    <circle cx="849" cy="138" r="15" fill="#FB923C"/>
+    <path d="M842 138L846 143L856 133" stroke="#FFF7ED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <text x="88" y="526" fill="#7C2D12" font-size="28" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="700">t0yohei / 五反田AI vol.2</text>
