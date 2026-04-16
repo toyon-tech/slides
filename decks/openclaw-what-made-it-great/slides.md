@@ -1,8 +1,8 @@
 ---
 theme: seriph
-title: OpenClaw と始める AI 生活
+title: OpenClaw は何が偉大だったのか
 info: |
-  OpenClaw は何が偉大だったのか
+  人々の想像力を爆発させた、パーソナルAIアシスタント
 class: text-center
 drawings:
   persist: false
@@ -11,11 +11,11 @@ duration: 10min
 mdc: true
 routerMode: hash
 seoMeta:
-  ogTitle: OpenClaw と始める AI 生活
-  ogDescription: OpenClaw は何が偉大だったのか
+  ogTitle: OpenClaw は何が偉大だったのか
+  ogDescription: 人々の想像力を爆発させた、パーソナルAIアシスタント
   twitterCard: summary_large_image
-  twitterTitle: OpenClaw と始める AI 生活
-  twitterDescription: OpenClaw は何が偉大だったのか
+  twitterTitle: OpenClaw は何が偉大だったのか
+  twitterDescription: 人々の想像力を爆発させた、パーソナルAIアシスタント
 ---
 
 <style>
