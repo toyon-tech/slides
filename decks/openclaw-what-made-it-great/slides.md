@@ -169,7 +169,6 @@ layoutClass: gap-10
 
 ---
 layout: two-cols-header
-layoutClass: gap-10
 ---
 
 # 他の AI Agent とはどう違うか
@@ -177,6 +176,8 @@ layoutClass: gap-10
 ::left::
 
 ### Claude Code などの AI Agent
+
+<br>
 
 - 動く場所: 基本的に個人の PC 上
 - 利用者: 個人
@@ -188,6 +189,8 @@ layoutClass: gap-10
 ::right::
 
 ### Agent SDK などで作る AI Agent
+
+<br>
 
 - 動く場所: クラウドや物理のサーバー上
 - 利用者: 複数人
@@ -222,21 +225,21 @@ layout: default
 
 ---
 layout: default
+class: text-center
 ---
 
 # OpenClaw がやったこと
 
 <div class="mt-12 max-w-4xl mx-auto text-center text-2xl leading-[3rem]">
-  <div class="font-semibold">OpenClaw がやったことは、2つだけ。</div>
 
   <div class="mt-10">
-    <div><b>「わたし専用の AI Agent」</b> という概念を与えた</div>
+    <div><b>「わたし専用の AI Agent」</b> という概念と体験を与えた</div>
     <div class="mt-6"><b>「あなたはこれを使って何をしますか？」</b> という問いを与えた</div>
   </div>
 </div>
 
 <div class="mt-16 text-4xl font-bold leading-[3.6rem] text-center text-orange-700">
-  だから、人々の想像力が爆発した
+  そして、人々の想像力が爆発した
 </div>
 
 ---
