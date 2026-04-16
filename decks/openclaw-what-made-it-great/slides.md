@@ -319,21 +319,11 @@ layout: two-cols-header
 - User 固有の記憶や設定は user prompt や memory 側へ載せる
 
 ---
-layout: default
----
-
-# カスタマイズ性
-
-- skill, plugin, cron, hook, tool, ACP
-- 「自分専用」に育てる余地が大きい
-
-
----
 layout: center
 class: text-center
 ---
 
-# 危険なホスト実行
+# カスタマイズ性と危険なホスト実行
 
 <div class="max-w-4xl mx-auto mt-10 text-center">
   <div class="text-2xl leading-12 opacity-90">OpenClaw をホスト実行で動かしたら、なんでもできちゃう。</div>
@@ -376,8 +366,8 @@ layout: default
 
 - 個人開発のコーディング
 - 経費精算関連のタスク
-- Home IoT との接続
-- 常時起動な雑談相手
+- ブログ・登壇資料作成
+- etc...
 
 <div class="mt-6 flex justify-center">
   <img src="../../public/decks/openclaw-what-made-it-great/personal-dev-coding.png" class="rounded-xl shadow border border-gray-200 max-h-[8rem] w-full max-w-[24rem] object-contain mx-auto" />
@@ -401,14 +391,9 @@ layoutClass: gap-10
     <div class="font-bold">「おはよう」から「おやすみ」まで</div>
     <div class="opacity-80">Home IoT と接続して生活に入り込ませる</div>
   </div>
-  <div>
-    <div class="font-bold">個人開発のコーディング</div>
-    <div class="opacity-80">日々の開発を一緒に進める</div>
-  </div>
-  <div>
-    <div class="font-bold">経費精算関連のタスク</div>
-    <div class="opacity-80">請求書や経費申請も任せたい</div>
-  </div>
+
+  <img src="../../public/decks/ohayou-kara-oyasumi-made/ogp.png" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
+
 </div>
 
 ::right::
@@ -418,14 +403,9 @@ layoutClass: gap-10
     <div class="font-bold">PNG Tuber</div>
     <div class="opacity-80">常時起動な雑談相手</div>
   </div>
-  <div>
-    <div class="font-bold">外に持ち歩く</div>
-    <div class="opacity-80">家の外でも相棒として連れ出す</div>
-  </div>
-  <div>
-    <div class="font-bold">他の人の使い方を見る</div>
-    <div class="opacity-80">ロボット、仕事、コミュニティ活用まで幅広い</div>
-  </div>
+
+<img src="../../public/decks/openclaw-what-made-it-great/png_tuber.jpg" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
+
 </div>
 
 ---
@@ -466,7 +446,7 @@ class: text-center
 <div class="mt-10 text-2xl leading-12 opacity-90">
 「わたし専用の AI Agent」という概念と体験を人々に与えた。<br>
 その上で「あなたはこれを使って何をしますか？」という問いを人々に与えた。<br>
-だから想像力を爆発させた。
+そして想像力を爆発させた。
 </div>
 
 ---
