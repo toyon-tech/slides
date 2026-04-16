@@ -413,10 +413,6 @@ layoutClass: gap-10
 
 <img src="../../public/decks/openclaw-what-made-it-great/aicu-note.png" class="mt-8 rounded-2xl shadow-lg border border-gray-200 max-h-[18rem] w-full object-contain mx-auto" />
 
-<div class="text-right text-sm opacity-55">
-  Source: https://note.com/aicu/n/ncc85d368f574
-</div>
-
 </div>
 
 ---
@@ -437,6 +433,10 @@ class: text-center
 <div class="mt-6 text-xl leading-10 opacity-85">
 正解は1つじゃない。
 それぞれが自分の相棒の育て方を試している。
+</div>
+
+<div class="mt-4 w-full text-left text-sm opacity-55">
+  Source: https://note.com/aicu/n/ncc85d368f574
 </div>
 
 ---
