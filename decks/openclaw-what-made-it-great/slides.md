@@ -226,10 +226,17 @@ layout: default
 
 # OpenClaw がやったこと
 
-<div class="mt-8 text-xl leading-10">
-<div class="mt-4"><b>「わたし専用の AI Agent」</b>という概念と体験を人々に与えた</div>
-<div class="mt-4">その上で<b>「あなたはこれを使って何をしますか？」</b>という問いを人々に与えた</div>
-<div class="mt-4 text-2xl text-orange-700"><b>だから、想像力が爆発した</b></div>
+<div class="mt-12 max-w-4xl mx-auto text-center text-2xl leading-[3rem]">
+  <div class="font-semibold">OpenClaw がやったことは、2つだけ。</div>
+
+  <div class="mt-10">
+    <div><b>「わたし専用の AI Agent」</b> という概念を与えた</div>
+    <div class="mt-6"><b>「あなたはこれを使って何をしますか？」</b> という問いを与えた</div>
+  </div>
+</div>
+
+<div class="mt-16 text-4xl font-bold leading-[3.6rem] text-center text-orange-700">
+  だから、人々の想像力が爆発した
 </div>
 
 ---
