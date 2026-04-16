@@ -113,6 +113,10 @@ class: text-center
 
 <img src="../../public/decks/openclaw-what-made-it-great/stars.png" class="mt-6 rounded-2xl shadow-lg border border-gray-200 max-h-[24rem] w-full object-contain mx-auto" />
 
+<div class="mt-4 w-full text-right text-sm opacity-55">
+  Source: https://x.com/openclaw/status/2028347703621464481?s=20
+</div>
+
 ---
 layout: center
 class: text-center
