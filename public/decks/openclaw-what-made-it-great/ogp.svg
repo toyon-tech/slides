@@ -36,34 +36,33 @@
     <text x="84" y="274" fill="#111827" font-size="72" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="800">何が偉大だったのか</text>
   </g>
 
-  <text x="88" y="360" fill="#C2410C" font-size="34" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="700">人々の想像力を爆発させた、</text>
-  <text x="88" y="414" fill="#374151" font-size="34" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="600">パーソナルAIアシスタント</text>
+  <text x="88" y="388" fill="#C2410C" font-size="30" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="700">人々の想像力を爆発させた、パーソナルAIアシスタント</text>
 
-  <rect x="84" y="462" width="470" height="2" fill="#C2410C" opacity="0.34"/>
+  <rect x="84" y="446" width="500" height="2" fill="#C2410C" opacity="0.34"/>
 
   <g filter="url(#soft)">
-    <rect x="684" y="146" width="312" height="244" rx="34" fill="url(#card)" stroke="#F3C7A7"/>
+    <rect x="742" y="168" width="248" height="204" rx="30" fill="url(#card)" stroke="#F3C7A7"/>
   </g>
 
   <g>
-    <rect x="728" y="196" width="224" height="148" rx="26" fill="#FFF7ED" stroke="#FDBA74" stroke-width="4"/>
-    <circle cx="772" cy="248" r="20" fill="url(#accent)"/>
-    <path d="M765 248L770 253L782 241" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="806" y="232" width="114" height="16" rx="8" fill="#FDBA74" opacity="0.92"/>
-    <rect x="806" y="262" width="88" height="14" rx="7" fill="#FED7AA"/>
-    <rect x="806" y="290" width="124" height="14" rx="7" fill="#E5E7EB"/>
+    <rect x="776" y="208" width="180" height="126" rx="22" fill="#FFF7ED" stroke="#FDBA74" stroke-width="4"/>
+    <circle cx="814" cy="252" r="17" fill="url(#accent)"/>
+    <path d="M808 252L812 256L822 246" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="844" y="238" width="92" height="14" rx="7" fill="#FDBA74" opacity="0.92"/>
+    <rect x="844" y="264" width="70" height="12" rx="6" fill="#FED7AA"/>
+    <rect x="844" y="288" width="98" height="12" rx="6" fill="#E5E7EB"/>
   </g>
 
   <g>
-    <path d="M662 182C662 154 685 132 713 132H759C787 132 810 154 810 182C810 210 787 232 759 232H741L713 256L718 232H713C685 232 662 210 662 182Z" fill="#FFE7C2" stroke="#FDBA74" stroke-width="4"/>
-    <circle cx="714" cy="182" r="24" fill="#F59E0B"/>
-    <text x="701" y="191" fill="#FFF7ED" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="800">?</text>
+    <path d="M720 190C720 166 740 146 764 146H804C828 146 848 166 848 190C848 214 828 234 804 234H789L764 256L768 234H764C740 234 720 214 720 190Z" fill="#FFE7C2" stroke="#FDBA74" stroke-width="4"/>
+    <circle cx="765" cy="190" r="20" fill="#F59E0B"/>
+    <text x="754" y="198" fill="#FFF7ED" font-size="22" font-family="Inter, Arial, sans-serif" font-weight="800">?</text>
   </g>
 
   <g>
-    <path d="M850 104C850 76 873 54 901 54H939C967 54 990 76 990 104C990 132 967 154 939 154H920L895 178L900 154H901C873 154 850 132 850 104Z" fill="#1F2937" opacity="0.94"/>
-    <circle cx="900" cy="104" r="20" fill="#FB923C"/>
-    <path d="M890 104L896 111L910 97" stroke="#FFF7ED" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M870 126C870 102 890 82 914 82H946C970 82 990 102 990 126C990 150 970 170 946 170H930L908 191L912 170H914C890 170 870 150 870 126Z" fill="#1F2937" opacity="0.94"/>
+    <circle cx="913" cy="126" r="17" fill="#FB923C"/>
+    <path d="M905 126L910 131L921 120" stroke="#FFF7ED" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <text x="88" y="526" fill="#7C2D12" font-size="28" font-family="Inter, 'Hiragino Sans', 'Noto Sans JP', Arial, sans-serif" font-weight="700">t0yohei / 五反田AI vol.2</text>
